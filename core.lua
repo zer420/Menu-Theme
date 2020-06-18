@@ -115,7 +115,8 @@ local function custom_ui(x1, y1, x2, y2, i, tab)
         draw.FilledRect(x1, y1, x2 + (160 * dpi), y2 + (528 * dpi));
     end;
 
-
+    SetColor(4);
+    draw.FilledRect(x1 + (58 * dpi), y1 - (2 * dpi), x2 + (569 * dpi), y2 - (38 * dpi));
     for j = 1, 5 do
         if i ~= j then
             SetColor(4);
